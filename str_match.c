@@ -8,6 +8,7 @@ void main()
 {
         char ms[50],ss[50],rep_str[20],res_str[100];
        // scanf("%s%s%s",ms,ss,rep_str);
+	printf("ENTER MAIN STRING,PATTER STRING,REPLACING STRING\n");
        gets(ms);
        gets(ss);
        gets(rep_str);
