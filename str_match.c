@@ -34,7 +34,7 @@ void main()
             }
         }
         res_str[pos_copy] = '\0';
-        printf("%s",res_str);
+        printf("RESULTANT STRING=%s",res_str);
 }
 int check_str(char *ms,char *ss,int pos_search)
 {
