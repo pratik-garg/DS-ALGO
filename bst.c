@@ -51,7 +51,7 @@ int main()
         }
     }
 }
-NODE getnode()
+NODE getnode()                          //NODE CREATION FUNCTION
 {
     NODE temp;
     temp = (NODE)malloc(sizeof(struct node));
@@ -62,7 +62,7 @@ NODE getnode()
     }
     return temp;
 }
-NODE insert(NODE root)
+NODE insert(NODE root)                  //NODE INSERTION IN THE BIBNARY TREE
 {
 
     int info;
@@ -132,7 +132,7 @@ void postorder(NODE root)
     postorder(root->rlink);
     printf("%d ",root->data);
 }
-NODE deletion(NODE root)
+NODE deletion(NODE root)                        //DELETION OF NODE FROM THE EXISTING BINARY TREE
 {
     int key;
     printf("ENTER THE KEY YOU WANT TO DELETE:");
